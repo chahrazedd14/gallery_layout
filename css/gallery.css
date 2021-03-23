@@ -5,6 +5,23 @@ body {
     padding: 40px 0;
 }
 
+
+/* styetext */
+
+.blueexdtext {
+    color: #0d2146;
+}
+
+.bg-fuul {
+    background-image: url('../images/ACCUEIL_LES_SAISIES_02-MMV-ChaletsDesCimes_-®M.Reyboz.jpeg');
+}
+
+
+/****************tabs***************************/
+
+
+/************container*******************/
+
 .container.gallery-container {
     background-color: #fff;
     color: #35373a;
@@ -122,6 +139,7 @@ body {
     cursor: pointer;
     box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.3);
     transition: all 0.2s ease-out;
+    border: none;
 }
 
 .panel:hover {
@@ -131,12 +149,14 @@ body {
 
 .panel:nth-child(11n+1) {
     margin-left: 0;
+    border: none
 }
 
 .panel:nth-child(11n+4) {
     margin-left: 0;
     width: calc(((80vw - 20px)/3)*2);
     height: calc((80vw - 60px)/3);
+    border: none;
 }
 
 .panel:nth-child(11n+6) {
@@ -144,6 +164,7 @@ body {
     float: left;
     width: calc((80vw - 60px)/3);
     height: calc(((80vw - 20px)/3)*2 - 8px);
+    border: none
 }
 
 .panel:nth-child(11n+6)>.panel-wrapper>.panel-img {
@@ -209,6 +230,7 @@ body {
     font-weight: 300;
     letter-spacing: 0;
     color: #fff;
+    margin-top: 28px;
 }
 
 .panel-tags {
@@ -574,6 +596,10 @@ h1 {
     text-transform: capitalize;
     letter-spacing: 1px;
     color: #828282;
+}
+
+.image-47 {
+    display: none;
 }
 
 
