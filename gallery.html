@@ -18,124 +18,127 @@
 
     <!-- gallery -->
 
-    <div class="container">
-        <section class="gallery grid-gallery">
+    <div class="container gallery_pannel ">
+        <section class="gallery grid-gallery gallery" id="app" data-state="gallery">
             <div class="intro">
-                <h1 style="color: #00255c;font-size: 2rem;text-shadow: 0px 0px #00255c;">Découvrir MMV</h1>
-                <p class="h4">L’expérience Club dans les plus belles stations des Alpes</p>
+                <h1 style="color: #00255c;font-size: 2rem;"> <strong>Découvrir</strong>
+                    <span class="mmvfont">mmv</span>
+                </h1>
+                <p class="h4 shadow_text">L’expérience Club dans les plus belles stations des Alpes</p>
             </div>
-            <figure class=" image-1 ">
+            <figure class=" image-1  gallery-item">
                 <a href="https://www.mmv.fr/hotel-club-tignes-brevieres-les-brevieres" target="_blank" rel="noopener noreferrer">
                     <a href="http://share.mmv.fr/_data/i/upload/2021/02/19/20210219151047-e8e1c3ee-la.jpg " data-featherlight="image "><img src="http://share.mmv.fr/_data/i/upload/2021/02/19/20210219151047-e8e1c3ee-la.jpg " />
-                        <div class="panel-text ">
-                            <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
-                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                        <path d="M0,172v-172h172v172z" fill="none"></path>
-                                        <g fill="#ffffff">
-                                            <path
-                                                d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
-                                            </path>
-                                        </g>
-                                    </g>
-                                </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
-                                        rel="noopener noreferrer">
-                                        Tignes 1800 - L'Altaviva</a></span></div>
-                            <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
 
-                        </div>
                         <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis a corrupti! Ex, animi. Delectus distinctio nobis molestiae at exercitationem veritatis blanditiis ad, aspernatur earum assumenda, accusantium voluptatum
-                            <!-- animi ea!<button type="button" class="btn btn-light">Light</button> -->
                         </figcaption>
                     </a>
                 </a>
+                <div class="panel-text ">
+                    <div class="panel-title ">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13" height="13" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M85.14441,2.013c-1.36055,0.11968 -2.57097,0.97579 -3.17566,2.28595l-14.10937,31.31042c-0.80625,1.88125 -0.13333,4.16615 1.74792,5.24115c13.84063,7.525 29.4276,11.42188 45.14948,11.42188h1.2099c6.45,7.12188 10.34583,16.66197 10.34583,27.00885c0,14.91562 -8.1974,28.62188 -21.36615,35.60938c-2.01562,1.075 -2.68645,3.49322 -1.61145,5.50885c0.67188,1.34375 2.14947,2.14948 3.49322,2.14948c0.67188,0 1.34428,-0.13228 1.88178,-0.5354c2.15,-1.20938 4.16562,-2.41927 6.04688,-3.8974c17.06563,10.2125 27.68072,28.75572 27.68072,48.50885c0,2.28438 1.74687,4.03125 4.03125,4.03125c2.28438,0 4.03125,-1.74687 4.03125,-4.03125c0,-12.9 -4.0302,-25.39583 -11.0177,-35.87708l17.06458,-17.0672l9.40625,1.61407h0.67188c1.88125,0 3.62813,-1.34375 4.03125,-3.35937c0.40312,-2.28437 -1.20937,-4.43437 -3.35937,-4.70312l-8.3302,-1.34375l-1.61407,-15.99115c-0.26875,-2.15 -2.14843,-3.76407 -4.4328,-3.6297c-2.15,0.26875 -3.89845,2.15105 -3.6297,4.43542l1.74792,17.06458l-16.52917,16.52917c-3.89688,-4.43438 -8.46563,-8.46458 -13.4375,-11.68958c8.33125,-8.86875 13.30365,-20.6948 13.30365,-33.32605c0,-11.95937 -4.43333,-22.97865 -11.68958,-31.44428l1.07343,-33.7276c0,-1.88125 -1.2078,-3.62813 -3.08905,-4.03125l-34.13177,-7.92865c-0.47031,-0.13437 -0.9401,-0.17637 -1.39362,-0.13647zM54.60559,43.80572c-1.02461,0 -2.06497,0.40365 -2.87122,1.2099c-9.1375,9.1375 -14.10937,21.36562 -14.10937,34.26563c0,16.125 8.06303,31.17553 21.36615,40.17865c0.67188,0.40312 1.47707,0.67188 2.28332,0.67188c1.34375,0 2.6875,-0.53855 3.35938,-1.74793c1.20937,-1.88125 0.80782,-4.43332 -1.07343,-5.6427c-11.15312,-7.39062 -17.87292,-20.0224 -17.87292,-33.4599c0,-10.75 4.16458,-20.82917 11.68958,-28.62292c1.6125,-1.47813 1.6125,-4.0302 0,-5.6427c-0.73906,-0.80625 -1.74687,-1.2099 -2.77148,-1.2099zM69.875,75.25c-2.28437,0 -4.03125,1.74688 -4.03125,4.03125c0,2.28437 1.74688,4.03125 4.03125,4.03125h13.4375c2.28437,0 4.03125,-1.74688 4.03125,-4.03125c0,-2.28437 -1.74688,-4.03125 -4.03125,-4.03125zM18.11176,86.25458c-1.89411,0.15983 -3.36305,1.64399 -3.59821,3.64282l-1.48022,15.85468l-8.3302,1.34375c-2.15,0.40312 -3.7625,2.55313 -3.35937,4.70313c0.26875,2.01563 2.01563,3.35938 4.03125,3.35938h0.67188l9.40625,-1.61145l8.46667,8.46667c0.80625,0.80625 1.88073,1.20728 2.82135,1.20728c0.94062,0 2.0151,-0.40103 2.82135,-1.20728c1.47813,-1.6125 1.47865,-4.1672 -0.13385,-5.64532l-8.60053,-8.60052l1.74792,-17.06458c0.26875,-2.15 -1.34532,-4.16667 -3.6297,-4.43542c-0.28555,-0.03359 -0.56401,-0.03596 -0.83459,-0.01312zM45.19934,118.16602c-1.02461,-0.05039 -2.06497,0.2845 -2.87122,1.02356c-13.30312,12.09375 -20.82812,29.42917 -20.82812,47.43542c0,2.28438 1.74687,4.03125 4.03125,4.03125c2.28438,0 4.03125,-1.74687 4.03125,-4.03125c0,-15.72188 6.58438,-30.90677 18.14063,-41.5224c1.6125,-1.47812 1.74583,-4.0302 0.2677,-5.6427c-0.73906,-0.80625 -1.74687,-1.24349 -2.77148,-1.29388z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                        <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                rel="noopener noreferrer">
+                                Vos Enfants Émerveillés</a></span>
+                    </div>
+                </div>
             </figure>
 
             <figure class="image-2 ">
                 <a href="./images/084_MMV_Plagne2000©ManuReyboz.jpg " data-featherlight="image "><img src="./images/084_MMV_Plagne2000©ManuReyboz.jpg ">
-                    <div class="panel-text ">
-                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
-                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
-                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
-                                    text-anchor="none" style="mix-blend-mode: normal">
-                                    <path d="M0,172v-172h172v172z" fill="none"></path>
-                                    <g fill="#ffffff">
-                                        <path
-                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
-                                        </path>
-                                    </g>
-                                </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
-                                    rel="noopener noreferrer">
-                                    Tignes 1800 - L'Altaviva</a></span></div>
-                        <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
 
-                    </div>
                     <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis a corrupti! Ex, animi. Delectus distinctio nobis molestiae at exercitationem veritatis blanditiis ad, aspernatur earum assumenda, accusantium voluptatum
-                        <!-- animi ea!<button type="button" class="btn btn-light">Light</button> -->
                     </figcaption>
 
                 </a>
+                <div class="panel-text ">
+                    <div class="panel-title ">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13" height="13" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M77.9375,21.5c-10.37375,0 -18.8125,8.43875 -18.8125,18.8125c0,10.37375 8.43875,18.8125 18.8125,18.8125c10.37375,0 18.8125,-8.43875 18.8125,-18.8125c0,-10.37375 -8.43875,-18.8125 -18.8125,-18.8125zM77.9375,32.25c4.44513,0 8.0625,3.61738 8.0625,8.0625c0,4.44512 -3.61737,8.0625 -8.0625,8.0625c-4.44513,0 -8.0625,-3.61738 -8.0625,-8.0625c0,-4.44512 3.61737,-8.0625 8.0625,-8.0625zM73.55982,64.45801c-2.17234,-0.21215 -4.38642,0.24237 -6.30933,1.32275c-2.56387,1.4405 -4.45117,3.9104 -5.12305,6.60327l-8.052,28.34472c-1.0535,4.20862 0.51012,8.60916 4.05224,11.26441l17.22729,12.58715l4.09424,20.54468h-25.94067l5.53247,-7.59009c0.38162,-0.70413 0.70782,-1.43185 0.96582,-2.1521l4.45118,-12.17773l-9.05982,-6.55078l-5.50098,15.07519c-0.09137,0.24188 -0.19669,0.47788 -0.31494,0.69288l-9.25928,12.70264h-24.198v10.75h115.48901c10.88975,0 20.51142,-6.93879 23.94604,-17.25879l0.31494,-0.92382l-10.1936,-3.40137l-0.30445,0.92383c-1.98337,5.92325 -7.51182,9.91016 -13.76294,9.91016h-18.73901v-59.125h-22.81226l-4.22021,-12.55567c-0.90838,-3.61199 -3.6854,-6.54045 -7.24365,-7.65308l-2.88696,-0.89233c-0.7001,-0.22037 -1.42799,-0.3702 -2.1521,-0.44092zM72.51001,75.16602l3.04444,1.36474l4.22021,11.98877c1.19325,4.7945 5.47956,8.13599 10.42456,8.13599h11.92578v48.46948h-11.71582l-4.48266,-22.47632c-0.4515,-2.74662 -1.93021,-5.17184 -4.23071,-6.89722l-17.23779,-12.25122z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                        <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                rel="noopener noreferrer">
+                                La glisse à la carte</a></span>
+                    </div>
+                </div>
             </figure>
             <figure class="image-3 ">
                 <a href="./images/120_MMV_Plagne2000-CH508Triple©ManuReyboz.jpg " data-featherlight="image "><img src="./images/120_MMV_Plagne2000-CH508Triple©ManuReyboz.jpg " />
-                    <div class="panel-text ">
-                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
-                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
-                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
-                                    text-anchor="none" style="mix-blend-mode: normal">
-                                    <path d="M0,172v-172h172v172z" fill="none"></path>
-                                    <g fill="#ffffff">
-                                        <path
-                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
-                                        </path>
-                                    </g>
-                                </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
-                                    rel="noopener noreferrer">
-                                    Tignes 1800 - L'Altaviva</a></span></div>
-                        <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
 
-                    </div>
                     <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis a corrupti! Ex, animi. Delectus distinctio nobis molestiae at exercitationem veritatis blanditiis ad, aspernatur earum assumenda, accusantium voluptatum
-                        <!-- animi ea!<button type="button" class="btn btn-light">Light</button> -->
                     </figcaption>
                 </a>
+                <div class="panel-text ">
+                    <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg> <span class="pl-5 "><a class="shadow_text"
+                                href="https://www.mmv.fr/hotel-club-ski-aime2000-plagne2000" target="_blank"
+                                rel="noopener noreferrer">
+                                La Plagne </a></span></div>
+                </div>
             </figure>
             <figure class="image-4 ">
                 <a href="http://share.mmv.fr/_data/i/upload/2018/12/19/20181219174039-c0342658-la.jpg " data-featherlight="image "><img src="http://share.mmv.fr/_data/i/upload/2018/12/19/20181219174039-c0342658-la.jpg " />
-                    <div class="panel-text ">
-                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
-                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
-                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
-                                    text-anchor="none" style="mix-blend-mode: normal">
-                                    <path d="M0,172v-172h172v172z" fill="none"></path>
-                                    <g fill="#ffffff">
-                                        <path
-                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
-                                        </path>
-                                    </g>
-                                </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
-                                    rel="noopener noreferrer">
-                                    Tignes 1800 - L'Altaviva</a></span></div>
-                        <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
-
-                    </div>
                     <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis a corrupti! Ex, animi. Delectus distinctio nobis molestiae at exercitationem veritatis blanditiis ad, aspernatur earum assumenda, accusantium voluptatum
                         <!-- animi ea!<button type="button" class="btn btn-light">Light</button> -->
                     </figcaption>
                 </a>
+                <div class="panel-text ">
+                    <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg> <span class="pl-5 "><a class="shadow_text"
+                                href="https://www.mmv.fr/residence-club-montgenevre-le-hameau-des-airelles"
+                                target="_blank" rel="noopener noreferrer">
+                                Montgenevre </a></span></div>
+                </div>
             </figure>
             <figure class="image-5 ">
                 <a href="./images/053_MMV_Plagne2000©ManuReyboz.jpg " data-featherlight="image "><img src="./images/053_MMV_Plagne2000©ManuReyboz.jpg ">
                     <div class="panel-text ">
-                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                        <div class="panel-title ">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="12" height="12" viewBox="0 0 172 172" style=" fill:#000000;">
                                 <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
                                     stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
                                     stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
@@ -143,13 +146,15 @@
                                     <path d="M0,172v-172h172v172z" fill="none"></path>
                                     <g fill="#ffffff">
                                         <path
-                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
+                                            d="M50.83854,0v42.32813c0,2.1556 -2.09961,4.25521 -4.25521,4.25521c-2.1556,0 -4.25521,-2.09961 -4.25521,-4.25521v-41.65625c-7.16667,0.72787 -10.75,1.56771 -10.75,1.56771c0,0 -2.91146,32.83789 -2.91146,52.18229c0,21.5 21.5,21.63997 21.5,30.23438c0,7.16667 -7.16667,51.51042 -7.16667,73.01042c0,7.89453 6.43881,14.33333 14.33333,14.33333c7.89453,0 14.33333,-6.4388 14.33333,-14.33333c0,-21.5 -7.16667,-66.01172 -7.16667,-73.90625c0,-7.89453 21.5,-7.83854 21.5,-29.33854c0,-12.17774 -2.23958,-52.18229 -2.23958,-52.18229c0,0 -3.52734,-0.83984 -11.42187,-1.56771v42.32813c0,2.1556 -2.09961,4.25521 -4.25521,4.25521c-2.85547,0 -4.25521,-2.09961 -4.25521,-4.25521v-43zM136.16667,0c-14.33333,0 -35.83333,43 -35.83333,82.41667c0,0 17.91667,12.9056 17.91667,25.08333c0,22.22787 -10.75,34.4056 -10.75,50.16667c0,7.89453 6.43881,14.33333 14.33333,14.33333c7.89453,0 14.33333,-6.4388 14.33333,-14.33333z">
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg>
+                            <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
-                                    Tignes 1800 - L'Altaviva</a></span></div>
+                                    Des vacances Gourmandes</a></span>
+                        </div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
 
                     </div>
@@ -160,29 +165,30 @@
             </figure>
             <figure class="image-6 ">
                 <a href="./images/APPART_079-811_3P-6P_Confort_MMV_LesSybelles©ManuReyboz.jpg " data-featherlight="image "><img src="./images/APPART_079-811_3P-6P_Confort_MMV_LesSybelles©ManuReyboz.jpg " />
-                    <div class="panel-text ">
-                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
-                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
-                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
-                                    text-anchor="none" style="mix-blend-mode: normal">
-                                    <path d="M0,172v-172h172v172z" fill="none"></path>
-                                    <g fill="#ffffff">
-                                        <path
-                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
-                                        </path>
-                                    </g>
-                                </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
-                                    rel="noopener noreferrer">
-                                    Tignes 1800 - L'Altaviva</a></span></div>
-                        <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
 
-                    </div>
                     <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis a corrupti! Ex, animi. Delectus distinctio nobis molestiae at exercitationem veritatis blanditiis ad, aspernatur earum assumenda, accusantium voluptatum
                         <!-- animi ea!<button type="button" class="btn btn-light">Light</button> -->
                     </figcaption>
                 </a>
+                <div class="panel-text ">
+                    <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                rel="noopener noreferrer">
+                                Les Sybelles </a></span></div>
+                    <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
+
+                </div>
             </figure>
             <figure class="image-7 ">
                 <a href="http://share.mmv.fr/_data/i/upload/2020/03/11/20200311153710-893c544e-la.jpg " data-featherlight="image "><img src="http://share.mmv.fr/_data/i/upload/2020/03/11/20200311153710-893c544e-la.jpg " />
@@ -199,9 +205,9 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
-                                    Tignes 1800 - L'Altaviva</a></span></div>
+                                    Flaine</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
 
                     </div>
@@ -211,56 +217,62 @@
                 </a>
             </figure>
             <figure class="image-8 ">
-                <a href="https://media.resalys.com/mmv_new/images/experiencemmv/hiver/bars-animations/residence/experience_animation_residence4.jpg" data-featherlight="image "><img src="https://media.resalys.com/mmv_new/images/experiencemmv/hiver/bars-animations/residence/experience_animation_residence4.jpg " />
-                    <div class="panel-text ">
-                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
-                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
-                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
-                                    text-anchor="none" style="mix-blend-mode: normal">
-                                    <path d="M0,172v-172h172v172z" fill="none"></path>
-                                    <g fill="#ffffff">
-                                        <path
-                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
-                                        </path>
-                                    </g>
-                                </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
-                                    rel="noopener noreferrer">
-                                    Tignes 1800 - L'Altaviva</a></span></div>
-                        <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
+                <a href="./images/ACTIVITÉ_VR_JUNIOR_51_MMV-ValCenis©M_Reyboz.jpg" data-featherlight="image "><img src="./images/ACTIVITÉ_VR_JUNIOR_51_MMV-ValCenis©M_Reyboz.jpg " />
 
-                    </div>
                     <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis a corrupti! Ex, animi. Delectus distinctio nobis molestiae at exercitationem veritatis blanditiis ad, aspernatur earum assumenda, accusantium voluptatum
                         <!-- animi ea!<button type="button" class="btn btn-light">Light</button> -->
                     </figcaption>
                 </a>
+                <div class="panel-text ">
+                    <div class="panel-title ">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13" height="13" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M34.4,27.52c-8.76125,0 -16.05781,6.665 -17.0925,15.1575c-6.11406,2.64719 -10.4275,8.74781 -10.4275,15.8025v68.8c0,9.46 7.74,17.2 17.2,17.2h39.13c6.82625,0 12.95375,-4.085 15.695,-10.32h14.19c2.74125,6.235 8.86875,10.32 15.695,10.32h39.13c9.46,0 17.2,-7.74 17.2,-17.2v-68.8c0,-7.05469 -4.31344,-13.15531 -10.4275,-15.8025c-1.03469,-8.4925 -8.33125,-15.1575 -17.0925,-15.1575zM34.4,34.4h103.2c4.54188,0 8.385,2.84875 9.7825,6.88h-122.765c1.3975,-4.03125 5.24063,-6.88 9.7825,-6.88zM24.08,48.16h123.84c5.73781,0 10.32,4.58219 10.32,10.32v68.8c0,5.73781 -4.58219,10.32 -10.32,10.32h-39.13c-4.13875,0 -7.83406,-2.43219 -9.46,-6.235l-5.375,-12.5775c-1.35719,-3.17125 -4.50156,-5.2675 -7.955,-5.2675c-3.45344,0 -6.59781,2.09625 -7.955,5.2675l-5.375,12.5775c-1.62594,3.80281 -5.32125,6.235 -9.46,6.235h-39.13c-5.73781,0 -10.32,-4.58219 -10.32,-10.32v-68.8c0,-5.73781 4.58219,-10.32 10.32,-10.32zM49.88,72.24c-12.30875,0 -22.36,10.05125 -22.36,22.36c0,12.30875 10.05125,22.36 22.36,22.36c12.30875,0 22.36,-10.05125 22.36,-22.36c0,-12.30875 -10.05125,-22.36 -22.36,-22.36zM122.12,72.24c-12.30875,0 -22.36,10.05125 -22.36,22.36c0,12.30875 10.05125,22.36 22.36,22.36c12.30875,0 22.36,-10.05125 22.36,-22.36c0,-12.30875 -10.05125,-22.36 -22.36,-22.36zM49.88,79.12c8.58656,0 15.48,6.89344 15.48,15.48c0,8.58656 -6.89344,15.48 -15.48,15.48c-8.58656,0 -15.48,-6.89344 -15.48,-15.48c0,-8.58656 6.89344,-15.48 15.48,-15.48zM122.12,79.12c8.58656,0 15.48,6.89344 15.48,15.48c0,8.58656 -6.89344,15.48 -15.48,15.48c-8.58656,0 -15.48,-6.89344 -15.48,-15.48c0,-8.58656 6.89344,-15.48 15.48,-15.48zM86,120.4c0.72563,0 1.33031,0.41656 1.6125,1.075l2.4725,5.805h-8.17l2.4725,-5.805c0.28219,-0.65844 0.88688,-1.075 1.6125,-1.075z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                        <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                rel="noopener noreferrer">La Réalité En Virtuelle</a></span>
+                    </div>
+                    <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
+
+                </div>
             </figure>
+
             <figure class="image-9 ">
                 <a href="./images/ACTIVITÉ_RAQUETTE_003_MMV-StFoy©M_Reyboz.jpg " data-featherlight="image "><img src="./images/ACTIVITÉ_RAQUETTE_003_MMV-StFoy©M_Reyboz.jpg " />
-                    <div class="panel-text ">
-                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
-                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
-                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
-                                    text-anchor="none" style="mix-blend-mode: normal">
-                                    <path d="M0,172v-172h172v172z" fill="none"></path>
-                                    <g fill="#ffffff">
-                                        <path
-                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
-                                        </path>
-                                    </g>
-                                </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
-                                    rel="noopener noreferrer">
-                                    Tignes 1800 - L'Altaviva</a></span></div>
-                        <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
 
-                    </div>
                     <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis a corrupti! Ex, animi. Delectus distinctio nobis molestiae at exercitationem veritatis blanditiis ad, aspernatur earum assumenda, accusantium voluptatum
                         <!-- animi ea!<button type="button" class="btn btn-light">Light</button> -->
                     </figcaption>
                 </a>
+                <div class="panel-text ">
+                    <div class="panel-title ">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13" height="13" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M100.33333,11.46667c-7.91608,0 -14.33333,6.41725 -14.33333,14.33333c0,7.91608 6.41725,14.33333 14.33333,14.33333c7.91608,0 14.33333,-6.41725 14.33333,-14.33333c0,-7.91608 -6.41725,-14.33333 -14.33333,-14.33333zM83.13333,45.86667c-2.90869,0.00166 -5.74804,0.88822 -8.14089,2.54193l-22.575,13.21354c-1.13745,0.66462 -2.01135,1.70065 -2.47474,2.93386l-9.43984,25.16172c-0.75155,1.80008 -0.5364,3.85878 0.57109,5.46458l-29.12578,43.69427c-0.58751,0.85205 -0.67019,1.9546 -0.21631,2.88474c0.45387,0.93014 1.37383,1.54344 2.40699,1.60466c1.03315,0.06122 2.0191,-0.43916 2.57964,-1.30919l29.61849,-44.43333c2.25277,-0.21279 4.16972,-1.73056 4.89349,-3.87448l2.23958,-5.96849l6.02448,-12.83281l7.46901,-3.28099l-2.97865,17.87188v0.02239c-0.60615,1.61093 -0.91719,3.31787 -0.91823,5.03906c0.0046,4.15814 1.81472,8.10935 4.96067,10.82839l0.0112,0.03359l0.24635,0.19036c0.183,0.15017 0.36969,0.29579 0.55989,0.43672l21.42162,16.59532l12.60885,26.38229h-11.14192c-0.131,-0.0015 -0.26195,0.00598 -0.39192,0.02239c-3.00382,0.20582 -5.33669,2.70008 -5.34141,5.71094c0,3.16643 2.5669,5.73333 5.73333,5.73333c3.16643,0 5.73333,-2.5669 5.73333,-5.73333h22.93333c0,3.16643 2.5669,5.73333 5.73333,5.73333c3.16643,0 5.73333,-2.5669 5.73333,-5.73333c0,-3.16643 -2.5669,-5.73333 -5.73333,-5.73333h-11.46667c0.00104,-0.6164 -0.09726,-1.22894 -0.29114,-1.81406l-11.46667,-34.4c-0.26477,-0.7849 -0.69646,-1.50311 -1.26536,-2.10521l-10.2013,-13.28073l0.04479,-0.30234c0.01974,-0.10058 0.03841,-0.20137 0.05599,-0.30235l5.71094,-34.20964c0,-0.00373 0,-0.00746 0,-0.0112c0.14047,-0.80615 0.21165,-1.62285 0.21276,-2.44114c0,-7.91608 -6.41725,-14.33333 -14.33333,-14.33333zM108.75417,63.03308c-0.04587,0.40133 -0.09998,0.85005 -0.13438,1.13099l-2.27317,13.69505l2.55313,1.46693c0.94027,0.61919 2.04554,0.94062 3.15781,0.94062c0.41853,0 0.83563,-0.04264 1.25417,-0.13438l20.13386,-4.52396l9.91015,82.40547c0.09231,1.04286 0.74575,1.95248 1.70457,2.37287c0.95883,0.42039 2.07057,0.28471 2.90014,-0.35395c0.82957,-0.63866 1.24505,-1.67874 1.08383,-2.71319l-9.98854,-83.01015c2.9606,-0.78762 4.82019,-3.74799 4.14323,-6.76354c-0.69373,-3.096 -3.79152,-5.03853 -6.85312,-4.34479l-23.44844,3.15781zM60.07683,113.63646l-1.17578,5.76693l-15.0836,19.77552l0.10078,-0.06719c-0.70059,0.7728 -1.05657,1.69787 -1.26536,2.6539l-10.25729,-3.53854c-0.08883,-0.03207 -0.17844,-0.06194 -0.26875,-0.08958c-0.02974,-0.00795 -0.0596,-0.01541 -0.08958,-0.02239c-0.48906,-0.13322 -0.99364,-0.201 -1.50052,-0.20156c-3.16643,0 -5.73333,2.5669 -5.73333,5.73333c0,3.16643 2.5669,5.73333 5.73333,5.73333c2.44155,-0.00477 4.61223,-1.55526 5.40859,-3.86329l21.70157,7.46901c-0.21139,0.60098 -0.32114,1.23299 -0.32474,1.87005c0,1.52057 0.60405,2.97887 1.67925,4.05408c1.07521,1.07521 2.5335,1.67925 4.05408,1.67925c3.16643,0 5.73333,-2.5669 5.73333,-5.73333c-0.00571,-2.2647 -1.344,-4.31382 -3.41536,-5.22943c-0.0296,-0.01545 -0.05946,-0.03038 -0.08958,-0.04479c-0.00746,-0.00375 -0.01493,-0.00748 -0.0224,-0.0112c-0.10904,-0.05182 -0.22124,-0.0967 -0.33593,-0.13438l-0.17917,-0.05599l-11.13073,-3.84089l16.20338,-16.57292c0.52173,-0.5332 0.93418,-1.15966 1.20938,-1.84766l1.48933,-3.68411l-11.48907,-8.91354c-0.344,-0.26373 -0.64222,-0.58076 -0.95182,-0.88464z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                        <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                rel="noopener noreferrer">
+                                Balade en Raquettes</a></span>
+                    </div>
+                </div>
             </figure>
             <figure class="image-10 ">
                 <a href="./images/CLUB_JUNIORS_139-LesBergers-Huez-®M_Reyboz.jpg " data-featherlight="image "><img src="./images/CLUB_JUNIORS_139-LesBergers-Huez-®M_Reyboz.jpg" />
@@ -277,7 +289,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -290,60 +302,90 @@
             </figure>
             <figure class="image-11 ">
                 <a href="./images/TERRASSE_138-StGervais©M-Reyboz.jpg " data-featherlight="image "><img src="./images/TERRASSE_138-StGervais©M-Reyboz.jpg " />
-                    <div class="panel-text ">
-                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
-                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
-                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
-                                    text-anchor="none" style="mix-blend-mode: normal">
-                                    <path d="M0,172v-172h172v172z" fill="none"></path>
-                                    <g fill="#ffffff">
-                                        <path
-                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
-                                        </path>
-                                    </g>
-                                </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
-                                    rel="noopener noreferrer">
-                                    Tignes 1800 - L'Altaviva</a></span></div>
-                        <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
 
-                    </div>
                     <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis a corrupti! Ex, animi. Delectus distinctio nobis molestiae at exercitationem veritatis blanditiis ad, aspernatur earum assumenda, accusantium voluptatum
                         <!-- animi ea!<button type="button" class="btn btn-light">Light</button> -->
                     </figcaption>
                 </a>
+                <div class="panel-text ">
+                    <div class="panel-title ">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="12" height="12" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M50.83854,0v42.32813c0,2.1556 -2.09961,4.25521 -4.25521,4.25521c-2.1556,0 -4.25521,-2.09961 -4.25521,-4.25521v-41.65625c-7.16667,0.72787 -10.75,1.56771 -10.75,1.56771c0,0 -2.91146,32.83789 -2.91146,52.18229c0,21.5 21.5,21.63997 21.5,30.23438c0,7.16667 -7.16667,51.51042 -7.16667,73.01042c0,7.89453 6.43881,14.33333 14.33333,14.33333c7.89453,0 14.33333,-6.4388 14.33333,-14.33333c0,-21.5 -7.16667,-66.01172 -7.16667,-73.90625c0,-7.89453 21.5,-7.83854 21.5,-29.33854c0,-12.17774 -2.23958,-52.18229 -2.23958,-52.18229c0,0 -3.52734,-0.83984 -11.42187,-1.56771v42.32813c0,2.1556 -2.09961,4.25521 -4.25521,4.25521c-2.85547,0 -4.25521,-2.09961 -4.25521,-4.25521v-43zM136.16667,0c-14.33333,0 -35.83333,43 -35.83333,82.41667c0,0 17.91667,12.9056 17.91667,25.08333c0,22.22787 -10.75,34.4056 -10.75,50.16667c0,7.89453 6.43881,14.33333 14.33333,14.33333c7.89453,0 14.33333,-6.4388 14.33333,-14.33333z">
+                                    </path>
+                                </g>
+                            </g>
+                            <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    Des vacances Gourmandes</a></span>
+                    </div>
+
+                </div>
             </figure>
             <figure class="image-12 ">
-                <a href="./images/SAUNA_099_MMV_Plagne2000©ManuReyboz.jpg " data-featherlight="image "><img src="./images/SAUNA_099_MMV_Plagne2000©ManuReyboz.jpg " />
-                    <figcaption>Montgenevre</figcaption>
+                <a href="./images/SAUNA_099_MMV_Plagne2000©ManuReyboz.jpg " data-featherlight="image "><img
+                        src="./images/SAUNA_099_MMV_Plagne2000©ManuReyboz.jpg " />
+                    <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, tempora eligendi velit
+                        necessitatibus delectus suscipit, eum atque eveniet reprehenderit in aliquam consequuntur harum,
+                        ratione officiis perferendis dolorum laborum non
+                        nisi.
+                    </figcaption>
                 </a>
+                <div class="panel-text ">
+                    <div class="panel-title ">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13" height="13"
+                            viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M86,19.3479l-3.7688,3.69531c0,0 -16.22724,15.93935 -21.45801,41.75073c-13.18489,-8.97771 -25.64673,-12.54517 -25.64673,-12.54517l-5.25952,-1.50122l-1.41724,5.29101c0,0 -6.56074,24.39491 5.8999,49.22534c-10.69649,1.30852 -18.50806,4.78711 -18.50806,4.78711l-5.01807,2.22559l2.33057,4.97607c0,0 9.98654,22.33096 31.42065,30.32886c19.81584,7.39405 38.55677,-0.41027 41.53027,-1.70068c2.96107,1.28641 21.71259,9.1029 41.54077,1.70068c21.43745,-8.00299 31.42065,-30.32886 31.42065,-30.32886l2.33057,-4.97607l-5.01807,-2.22559c0,0 -7.99185,-3.54606 -18.87549,-4.8186c12.45974,-24.89392 5.81592,-49.35132 5.81592,-49.35132l-1.42773,-5.27002l-5.24903,1.51172c0,0 -12.35072,3.57293 -25.44727,12.49267c-5.26904,-25.70718 -21.42651,-41.57226 -21.42651,-41.57226zM86,35.86133c4.95049,5.76423 16.125,20.20758 16.125,44.76367c0,24.06912 -10.85948,41.33586 -16.125,48.95239c-5.26552,-7.61654 -16.125,-24.88327 -16.125,-48.95239c0,-24.5561 11.17451,-38.99944 16.125,-44.76367zM133.55615,64.83594c1.15739,6.92888 2.73353,21.77399 -7.62158,39.2207c-6.57829,11.08335 -17.08173,18.74464 -25.87769,23.6311c6.12952,-11.38359 12.81812,-28.0122 12.81812,-47.06274c0,-1.28222 -0.09776,-2.50995 -0.15747,-3.7583c8.25787,-6.59984 15.73742,-10.05517 20.83862,-12.03076zM38.24438,64.96192c5.13265,1.97087 12.69896,5.45729 21.02759,12.12524c-0.05302,1.177 -0.14697,2.33085 -0.14697,3.53784c0,19.0959 6.72937,35.75154 12.8706,47.13623c-8.82391,-4.86127 -19.39564,-12.49539 -26.02466,-23.59961c-10.40252,-17.42519 -8.86367,-32.26806 -7.72656,-39.1997zM131.05761,115.573c5.95008,0.10132 11.02896,1.16485 14.87574,2.28857c-3.42032,5.61514 -10.03987,15.17028 -22.0459,19.65234c-7.3922,2.75964 -15.40386,2.49749 -21.98291,1.45923c9.02803,-4.53553 20.43922,-11.92224 29.15308,-23.40015zM40.78491,115.58349c8.7517,11.51683 20.22893,18.89485 29.30005,23.42114c-6.53898,1.00777 -14.44467,1.23591 -21.75195,-1.49072c-11.99863,-4.47715 -18.61252,-14.03481 -22.0354,-19.65234c3.76464,-1.09847 8.71279,-2.13575 14.4873,-2.27808z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                        <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                rel="noopener noreferrer">
+                                Zen Soyons Zen</a></span>
+                    </div>
+                    <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
+
+                </div>
             </figure>
             <figure class="image-13 ">
                 <a href="./images/SALON_034-MMV_Areches_Beaufort_CleDesCimes_©M.png " data-featherlight="image "><img src="./images/SALON_034-MMV_Areches_Beaufort_CleDesCimes_©M.png " />
-                    <div class="panel-text ">
-                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
-                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
-                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
-                                    text-anchor="none" style="mix-blend-mode: normal">
-                                    <path d="M0,172v-172h172v172z" fill="none"></path>
-                                    <g fill="#ffffff">
-                                        <path
-                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
-                                        </path>
-                                    </g>
-                                </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
-                                    rel="noopener noreferrer">
-                                    Tignes 1800 - L'Altaviva</a></span></div>
-                        <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
 
-                    </div>
                     <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis a corrupti! Ex, animi. Delectus distinctio nobis molestiae at exercitationem veritatis blanditiis ad, aspernatur earum assumenda, accusantium voluptatum
                         <!-- animi ea!<button type="button" class="btn btn-light">Light</button> -->
                     </figcaption>
                 </a>
+                <div class="panel-text ">
+                    <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                rel="noopener noreferrer">
+                                Arêches-beaufort</a></span>
+                    </div>
+                </div>
             </figure>
             <figure class="image-14 ">
                 <a href="./images/RAQUETTES_ACTIVITES_ADULTES_DSC_0227_VAL_THORENS_LES_NEIGES©I.NOWAK.jpg " data-featherlight="image "><img src="./images/RAQUETTES_ACTIVITES_ADULTES_DSC_0227_VAL_THORENS_LES_NEIGES©I.NOWAK.jpg " />
@@ -360,7 +402,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -386,14 +428,11 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
-                                    Tignes 1800 - L'Altaviva</a></span></div>
-                        <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
-
+                                    Frizy et Mô</a></span></div>
                     </div>
                     <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis a corrupti! Ex, animi. Delectus distinctio nobis molestiae at exercitationem veritatis blanditiis ad, aspernatur earum assumenda, accusantium voluptatum
-                        <!-- animi ea!<button type="button" class="btn btn-light">Light</button> -->
                     </figcaption>
                 </a>
             </figure>
@@ -412,9 +451,9 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
-                                    Tignes 1800 - L'Altaviva</a></span></div>
+                                    Les Saisies</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
 
                     </div>
@@ -438,7 +477,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -464,9 +503,9 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
-                                    Tignes 1800 - L'Altaviva</a></span></div>
+                                    Frizy et Mô</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
 
                     </div>
@@ -490,7 +529,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -516,7 +555,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -542,7 +581,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -568,7 +607,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -594,7 +633,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -620,7 +659,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -646,7 +685,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -672,8 +711,8 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
-                                    rel="noopener noreferrer">
+                            </svg> <span class="pl-5 "><a cclass="shadow_text" href="https://www.mmv.fr/"
+                                    target="_blank" rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
 
@@ -698,7 +737,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -724,7 +763,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -750,7 +789,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -776,7 +815,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -802,7 +841,7 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
                         <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
@@ -932,14 +971,11 @@
                                         </path>
                                     </g>
                                 </g>
-                            </svg> <span class="pl-5 "><a href="https://www.mmv.fr/" target="_blank"
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
                                     rel="noopener noreferrer">
                                     Tignes 1800 - L'Altaviva</a></span></div>
-                        <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
-
                     </div>
                     <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis a corrupti! Ex, animi. Delectus distinctio nobis molestiae at exercitationem veritatis blanditiis ad, aspernatur earum assumenda, accusantium voluptatum
-                        <!-- animi ea!<button type="button" class="btn btn-light">Light</button> -->
                     </figcaption>
                 </a>
             </figure>
@@ -1028,27 +1064,114 @@
             </figure> -->
             <figure class="image-41 ">
                 <a href="./images/TERRASSE_ETE_149-MMV_Alpazur©ManuReyboz.jpg " data-featherlight="image "><img src="images/TERRASSE_ETE_149-MMV_Alpazur©ManuReyboz.jpg" />
+                    <div class="panel-text ">
+                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                    text-anchor="none" style="mix-blend-mode: normal">
+                                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                                    <g fill="#ffffff">
+                                        <path
+                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    Tignes 1800 - L'Altaviva</a></span></div>
+                    </div>
                     <figcaption>Image №41</figcaption>
                 </a>
             </figure>
             <figure class="image-42 ">
                 <a href="./images/chef-etoile-cedric-campanella (1).jpg " data-featherlight="image "><img src="./images/chef-etoile-cedric-campanella (1).jpg " />
+                    <div class="panel-text ">
+                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                    text-anchor="none" style="mix-blend-mode: normal">
+                                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                                    <g fill="#ffffff">
+                                        <path
+                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    Tignes 1800 - L'Altaviva</a></span></div>
+                    </div>
                     <figcaption>Image №42</figcaption>
                 </a>
             </figure>
             <figure class="image-43 ">
                 <a href="./images/parachute.png " data-featherlight="image "><img src="./images/parachute.png" />
-                    <figcaption>Image №43</figcaption>
+                    <div class="panel-text ">
+                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                    text-anchor="none" style="mix-blend-mode: normal">
+                                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                                    <g fill="#ffffff">
+                                        <path
+                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    Tignes 1800 - L'Altaviva</a></span></div>
+                    </div>
+                    <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis a corrupti! Ex, animi. Delectus distinctio nobis molestiae at exercitationem veritatis blanditiis ad, aspernatur earum assumenda, accusantium voluptatum
+                    </figcaption>
                 </a>
             </figure>
             <figure class="image-44 ">
                 <a href="./images/bbbyCLUB_TEENS_060-MMV-Tignes_Brevieres®M_Reyboz.jpeg " data-featherlight="image "><img src="./images/bbbyCLUB_TEENS_060-MMV-Tignes_Brevieres®M_Reyboz.jpeg " />
+                    <div class="panel-text ">
+                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                    text-anchor="none" style="mix-blend-mode: normal">
+                                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                                    <g fill="#ffffff">
+                                        <path
+                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    Tignes 1800 - L'Altaviva</a></span></div>
+                    </div>
                     <figcaption>Image №44</figcaption>
                 </a>
             </figure>
             <figure class="image-45 ">
                 <a href="./images/restauration-hotel-club-mmv.jpg " data-featherlight="image "><img src="./images/restauration-hotel-club-mmv.jpg " />
-                    <figcaption>Image №45</figcaption>
+                    <div class="panel-text ">
+                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                    text-anchor="none" style="mix-blend-mode: normal">
+                                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                                    <g fill="#ffffff">
+                                        <path
+                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    Tignes 1800 - L'Altaviva</a></span></div>
+                    </div>
+                    <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis a corrupti! Ex, animi. Delectus distinctio nobis molestiae at exercitationem veritatis blanditiis ad, aspernatur earum assumenda, accusantium voluptatum
+                    </figcaption>
                 </a>
             </figure>
             <!-- <figure class="image-46 ">
@@ -1063,18 +1186,58 @@
             </figure> -->
             <figure class="image-47 d-none ">
                 <a href="" data-featherlight="image "><img src=" " />
-
                 </a>
             </figure>
             <figure class="image-48 ">
-                <a href="./images/SPECCTACLE8KIDS.png " data-featherlight="image "><img src="./images/SPECCTACLE8KIDS.png " />
+                <a href="./images/kids.png " data-featherlight="image "><img src="./images/kids.png " />
+                    <div class="panel-text ">
+                        <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                    stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                    text-anchor="none" style="mix-blend-mode: normal">
+                                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                                    <g fill="#ffffff">
+                                        <path
+                                            d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    Tignes 1800 - L'Altaviva</a></span></div>
+                        <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
+
+                    </div>
                     <figcaption>Image №48</figcaption>
                 </a>
             </figure>
             <figure class="image-49 ">
                 <a href="./images/huski.jpg " data-featherlight="image "><img src="./images/huski.jpg " />
+
                     <figcaption>Image №49</figcaption>
                 </a>
+                </a>
+                <div class="panel-text ">
+                    <div class="panel-title "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M87.23267,21.5c0,0 -66.4995,66.4995 -68.69967,68.69967c-5.59717,5.59717 -5.59717,14.67017 0,20.26733c6.579,6.579 34.60067,34.60067 43,43c5.59717,5.59717 14.67017,5.59717 20.26733,0c2.20017,-2.20017 68.69967,-68.69967 68.69967,-68.69967v-63.26733zM125.41667,57.33333c-5.934,0 -10.75,-4.816 -10.75,-10.75c0,-5.934 4.816,-10.75 10.75,-10.75c5.934,0 10.75,4.816 10.75,10.75c0,5.934 -4.816,10.75 -10.75,10.75z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg> <span class="pl-5 "><a class="shadow_text" href="https://www.mmv.fr/" target="_blank"
+                                rel="noopener noreferrer">
+                                Tignes 1800 - L'Altaviva</span>
+                    </div>
+                    <!-- <button type="button " class="btn btn-danger text-center ">Danger</button> -->
+
+                </div>
             </figure>
             <!-- <figure class="image-46 ">
                 <a href="https://picsum.photos/1600/1200/?46 " data-featherlight="image "><img src="https://picsum.photos/1600/1200/?46 " />
@@ -1127,11 +1290,12 @@
                 </a>
             </figure> -->
         </section>
-        <!-- <section class="warning ">
+        <section class="warning ">
             <p class="huge-type ">⚠️</p>
             <p>Your browser does not support CSS Grid.</p>
             <p> <a href="https://caniuse.com/#feat=css-grid " target="_blank ">CSS Grid Layout on "caniuse.com "</a></p>
-        </section> -->
+        </section>
+        <div class="details"></div>
         <div id="lightbox "></div>
     </div>
 
@@ -1143,12 +1307,9 @@
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js "></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.12/jquery.transit.min.js"></script>
-    <script>
-        baguetteBox.run('.tz-gallery');
-    </script>
     <script src="./gallery.js "></script>
 </body>
 

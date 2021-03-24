@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@font-face {
+    font-family: "insignia";
+    src: url("/fonts/Insignia.ttf") format("ttf");
+}
+
 body {
     background-color: #eff0f1;
     min-height: 100vh;
-    font: normal 16px sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     padding: 40px 0;
+    font-size: 16px;
 }
 
 
@@ -10,6 +17,10 @@ body {
 
 .blueexdtext {
     color: #0d2146;
+}
+
+.h4 {
+    font-size: 27px;
 }
 
 .bg-fuul {
@@ -22,18 +33,19 @@ body {
 
 /************container*******************/
 
+.gallery_pannel {
+    cursor: crosshair;
+}
+
+.gallery_pannel a {
+    cursor: crosshair;
+}
+
 .container.gallery-container {
     background-color: #fff;
     color: #35373a;
     min-height: 100vh;
     padding: 30px 50px;
-}
-
-.gallery-container h1 {
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Droid Sans', sans-serif;
-    font-weight: bold;
 }
 
 .gallery-container p.page-description {
@@ -58,22 +70,6 @@ body {
     width: 100%;
     border-radius: 0;
     position: relative;
-}
-
-.tz-gallery .lightbox:before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -13px;
-    margin-left: -13px;
-    opacity: 0;
-    color: #fff;
-    font-size: 26px;
-    font-family: 'Glyphicons Halflings';
-    content: '\e003';
-    pointer-events: none;
-    z-index: 9000;
-    transition: 0.4s;
 }
 
 .tz-gallery .lightbox:after {
@@ -108,16 +104,6 @@ body {
     background-color: #ffffff;
 }
 
-html,
-body {
-    position: relative;
-    width: 100vw;
-    min-height: 100vh;
-    overflow-x: hidden;
-    font-family: 'europa', sans-serif;
-    color: #555;
-}
-
 .clear-fix {
     clear: both;
 }
@@ -129,6 +115,16 @@ body {
     margin-top: 50px;
 }
 
+.shadow_text {
+    text-shadow: 1px 1px 2px #555555c4;
+    color: white;
+}
+
+.shadow_text :hover {
+    text-shadow: 1px 1px 2px #555555c4;
+    color: white;
+}
+
 .panel {
     position: relative;
     display: inline-block;
@@ -136,7 +132,7 @@ body {
     height: calc((80vw - 60px)/3);
     margin-left: 20px;
     margin-bottom: 20px;
-    cursor: pointer;
+    cursor: crosshair;
     box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.3);
     transition: all 0.2s ease-out;
     border: none;
@@ -279,19 +275,6 @@ body {
     margin: 0 auto;
     min-width: 100%;
     height: 100%;
-}
-
-html {
-    font-size: 16px;
-}
-
-body {
-    background: #fff;
-    line-height: 1.4;
-}
-
-a {
-    color: #bada55;
 }
 
 .huge-type {
@@ -437,21 +420,15 @@ a {
     padding: 0.5em;
 }
 
+.mmvfont {
+    font-family: 'Insignia';
+    font-weight: 400;
+    color: #0d2146;
+}
+
 .intro h1 {
     font-size: 2.5rem;
     font-weight: 700;
-}
-
-body,
-html {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: #f5f4f4;
-    font-size: 13px;
 }
 
 @supports (display: grid) {
@@ -520,7 +497,7 @@ h1 {
     background-position: center;
     box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
     transition: transform 0.3s ease-in-out;
-    cursor: pointer;
+    cursor: crosshair;
     counter-increment: item-counter;
 }
 
