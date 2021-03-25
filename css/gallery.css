@@ -34,11 +34,15 @@ body {
 /************container*******************/
 
 .gallery_pannel {
-    cursor: crosshair;
+    cursor: pointer;
 }
 
 .gallery_pannel a {
-    cursor: crosshair;
+    cursor: pointer;
+}
+
+a :hover {
+    color: white;
 }
 
 .container.gallery-container {
